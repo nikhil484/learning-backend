@@ -2,6 +2,7 @@
 // this makes inconsistency in code 
  import dotenv from "dotenv";
 import connectDB from "./db/index.js";
+import { app } from "./app.js";
 // with this module you have to make change in package.json as wll
 
 dotenv.config({
