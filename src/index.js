@@ -6,7 +6,7 @@ import { app } from "./app.js";
 // with this module you have to make change in package.json as wll
 
 dotenv.config({
-   path:'./env'
+   path:'./.env'
  })
 
 
